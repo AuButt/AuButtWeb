@@ -5,13 +5,8 @@
     <loc>http://localhost:1313/nomad-tech/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/nomad-tech/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/nomad-tech/en/categories/"
+                href="http://localhost:1313/nomad-tech/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -22,13 +17,8 @@
     <loc>http://localhost:1313/nomad-tech/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/nomad-tech/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/nomad-tech/en/tags/"
+                href="http://localhost:1313/nomad-tech/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -39,13 +29,8 @@
     <loc>http://localhost:1313/nomad-tech/fr/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/nomad-tech/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/nomad-tech/en/"
+                href="http://localhost:1313/nomad-tech/"
                 />
     <xhtml:link
                 rel="alternate"

@@ -1,5 +1,5 @@
 baseURL = "https://m03315.github.io/nomad-tech/"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 theme = "nomad-tech"
 
 [pagination]
@@ -10,24 +10,20 @@ theme = "nomad-tech"
   tag = "tags"
 
 [languages]
-  [languages.zh]
-    languageCode = "zh-CN"
-    title = "Your Name - Digital Nomad | Tech | Life"
-    weight = 1
   [languages.en]
     languageCode = "en-US"
     title = "Your Name - Digital Nomad | Tech Insights | Life Stories"
-    weight = 2
+    weight = 1
   [languages.fr]
     languageCode = "fr-FR"
     title = "Your Name - Nomade Numérique | Tech | Vie"
-    weight = 3
+    weight = 2
 
 [params]
-  author = "m03315"
-  logo = "NOMAD-TECH"
-  subtitle = "Digital Nomad • Tech Explorer • Life Recorder"
-  description = "Sharing tech insights, recording nomad life, providing practical guides"
+  author = "Austin"
+  logo = "Austin Butt"
+  subtitle = "Network Programmer • Gamedev • Computer Science"
+  description = "Something something something..."
 
   # Analytics (optional)
   googleAnalytics = "G-2310RJEC91"
