@@ -47,19 +47,43 @@ theme = "nomad-tech"
 
   # Portfolio Items
   [[params.portfolio]]
-    title = "Digital Nomad Community App"
+    title = "Burntown"
     type = "Mobile Application"
-    icon = "📱"
-    description = "A comprehensive platform for nomads to connect and collaborate"
-    tags = ["React Native", "Node.js", "MongoDB"]
+    icon = "img-1"
+    description = "A 4-player cooperative fire starting game about burning your way through a futuristic dystopia."
+    tags = ["C#", "Unity", "Photon: Fusion", "Networking"]
+    project_url = "/projects/nomad-app/"
+
+    [[params.portfolio]]
+    title = "Purrsuit"
+    type = "Mobile Application"
+    icon = "img-2"
+    description = "A competitive, no-holds-bar, motorbike arena battle to the ninth life"
+    tags = ["C++", "Unreal Engine", "Phys Optimization"]
+    project_url = "/projects/nomad-app/"
+
+    [[params.portfolio]]
+    title = "Pick Some Axe"
+    type = "Mobile Application"
+    icon = "img-3"
+    description = "A puzzle platformer with a unique spin"
+    tags = ["C#", "Unity", "Physics", "AI"]
     project_url = "/projects/nomad-app/"
 
   [[params.portfolio]]
-    title = "Another Project"
-    type = "Web Application"
-    icon = "🌐"
-    description = "Web application description"
-    tags = ["React", "Vue.js"]
+  title = "Particle Buoyancy Simulation"
+  type = "Mobile Application"
+  icon = "img-4"
+  description = "Simulated buoyancy on custom build particles using AABB collision"
+  tags = ["C", "ECS Physics"]
+  project_url = "/projects/nomad-app/"
+
+  [[params.portfolio]]
+  title = "Meta/MusicGen: Adaptive Music"
+  type = "Web Application"
+  icon = "img-5"
+  description = "Dynamic and Adaptive music generation incorperating Meta's AI music generation subsystem"
+  tags = ["C", "Meta AI API", "Python"]
 
   # Travel Timeline
   [[params.travels]]
@@ -91,12 +115,12 @@ theme = "nomad-tech"
     icon = "📧"
     name = "email"
     value = "me@m03315.top"
-  
+
   [[params.contact]]
     icon = "💬"
     name = "wechat"
     value = "m03315_"
-  
+
   [[params.contact]]
     icon = "🐦"
     name = "twitter"
