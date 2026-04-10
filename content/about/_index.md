@@ -13,13 +13,14 @@ I've been working remotely for several years, traveling the world while building
 
 ## What I Do
 
-![IMG](/static/cart.webp)
-- **Tech Development**: Building web applications and mobile solutions
-- **Content Creation**: Sharing insights through blogs and videos
-- **Community Building**: Connecting with fellow nomads and tech enthusiasts
+**Tech Development**: Building web applications and mobile solutions
+
+**Content Creation**: Sharing insights through blogs and videos
+
+**Community Building**: Connecting with fellow nomads and tech enthusiasts
 
 ## My Mission
 
 To bridge the gap between technology and lifestyle, showing how digital tools can enable freedom and creativity in our modern world.
 
-<!-- ![IMG](static/cart.webp) -->
+``

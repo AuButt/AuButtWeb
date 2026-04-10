@@ -33,7 +33,7 @@
 </script>
     
 
-<link rel="stylesheet" href="/nomad-tech/scss/main.min.f4d50812d1262a7f9fb3701d24b4fc53ef6653d820a3d2c51fb390c51a897ea0.css" integrity="sha256-9NUIEtEmKn&#43;fs3AdJLT8U&#43;9mU9ggo9LFH7OQxRqJfqA=">
+<link rel="stylesheet" href="/nomad-tech/scss/main.min.f7ec4b30d09548cd34eff38e3c8a05e0ca450f7ed82d385e3171347c8db621d8.css" integrity="sha256-9&#43;xLMNCVSM007/OOPIoF4MpFD37YLTheMXE0fI22Idg=">
 
 
 
@@ -80,14 +80,13 @@
             </div>
             <div class="terminal-title">About Me.md</div>
         </div>
-        <script src="/js/carousel.js"></script>
         <div class="carousel">
             <button class="arrow left">&#10094;</button>
 
             <div class="carousel-track">
-                <div class="slide img-1"></div>
-                <div class="slide img-2"></div>
-                <div class="slide img-3"></div>
+                <div class="slide abtimg-1"></div>
+                <div class="slide abtimg-2"></div>
+                <div class="slide abtimg-3"></div>
             </div>
 
             <button class="arrow right">&#10095;</button>
@@ -101,40 +100,37 @@
 <h2 id="my-journey">My Journey</h2>
 <p>I&rsquo;ve been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.</p>
 <h2 id="what-i-do">What I Do</h2>
-<p><img src="/nomad-tech/about/static/cart.webp" alt="IMG"></p>
-<ul>
-<li><strong>Tech Development</strong>: Building web applications and mobile solutions</li>
-<li><strong>Content Creation</strong>: Sharing insights through blogs and videos</li>
-<li><strong>Community Building</strong>: Connecting with fellow nomads and tech enthusiasts</li>
-</ul>
+<p><strong>Tech Development</strong>: Building web applications and mobile solutions</p>
+<p><strong>Content Creation</strong>: Sharing insights through blogs and videos</p>
+<p><strong>Community Building</strong>: Connecting with fellow nomads and tech enthusiasts</p>
 <h2 id="my-mission">My Mission</h2>
 <p>To bridge the gap between technology and lifestyle, showing how digital tools can enable freedom and creativity in our modern world.</p>
+<p>``</p>
 
             </div>
             
             <div class="contact-section">
                 <div class="prompt-line">
-                    <span class="prompt">$</span>
-                    <span class="command">ls -la contact/</span>
+                    <span class="command">Contact</span>
                 </div>
                 <div class="contact-grid">
                     
                     <div class="contact-file">
                         <span class="file-icon">📧</span>
-                        <span class="file-name">email.txt</span>
-                        <span class="file-content">me@m03315.top</span>
+                        <span class="file-name">Email</span>
+                        <span class="file-content">akb12bella@gmail.com</span>
                     </div>
                     
                     <div class="contact-file">
                         <span class="file-icon">💬</span>
-                        <span class="file-name">wechat.txt</span>
-                        <span class="file-content">m03315_</span>
+                        <span class="file-name">Phone</span>
+                        <span class="file-content">413-575-2939</span>
                     </div>
                     
                     <div class="contact-file">
                         <span class="file-icon">🐦</span>
-                        <span class="file-name">twitter.txt</span>
-                        <span class="file-content">@m03315_</span>
+                        <span class="file-name">X</span>
+                        <span class="file-content">PENDING</span>
                     </div>
                     
                 </div>
@@ -142,6 +138,35 @@
         </div>
     </article>
 </div>
+<script >
+    const track = document.querySelector('.carousel-track');
+    const images = document.querySelectorAll('.carousel-track .slide');
+    const nextBtn = document.querySelector('.arrow.right');
+    const prevBtn = document.querySelector('.arrow.left');
+
+    let index = 0;
+
+    function updateCarousel() {
+        const width = images[0].clientWidth;
+        track.style.transform = `translateX(-${index * width}px)`;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        if (index < images.length - 1) {
+            index++;
+            updateCarousel();
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (index > 0) {
+            index--;
+            updateCarousel();
+        }
+    });
+
+    window.addEventListener('resize', updateCarousel);
+</script>
 
     </main>
     <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">

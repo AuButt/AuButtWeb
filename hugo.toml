@@ -113,15 +113,15 @@ theme = "nomad-tech"
   # Contact Information
   [[params.contact]]
     icon = "📧"
-    name = "email"
-    value = "me@m03315.top"
+    name = "Email"
+    value = "akb12bella@gmail.com"
 
   [[params.contact]]
     icon = "💬"
-    name = "wechat"
-    value = "m03315_"
+    name = "Phone"
+    value = "413-575-2939"
 
   [[params.contact]]
     icon = "🐦"
-    name = "twitter"
-    value = "@m03315_"
+    name = "X"
+    value = "PENDING"
