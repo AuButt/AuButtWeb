@@ -5,7 +5,8 @@
     <link>http://localhost:1313/nomad-tech/</link>
     <description>Recent content in Home on Your Name - Digital Nomad | Tech Insights | Life Stories</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="http://localhost:1313/nomad-tech/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/nomad-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern JavaScript Async Patterns</title>
       <link>http://localhost:1313/nomad-tech/posts/javascript-async-patterns/</link>
