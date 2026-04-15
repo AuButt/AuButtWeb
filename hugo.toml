@@ -22,7 +22,7 @@ theme = "nomad-tech"
 [params]
   author = "Austin"
   logo = "Austin Butt"
-  subtitle = "Network Programmer • Gamedev • Computer Science"
+  subtitle = "Networking • Game Development • Physics/AI Programmer"
   description = "Something something something..."
 
   # Analytics (optional)
