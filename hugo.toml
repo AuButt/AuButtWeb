@@ -30,20 +30,22 @@ theme = "nomad-tech"
 
   # Social Media Links
   [[params.social]]
-    name = "YouTube"
+    name = "Github"
     class = "youtube"
-    icon = "📺"
-    description = "Tech reviews and nomad vlogs"
-    url = "https://www.youtube.com/@GP_ARC"
-    button_text = "Visit Channel"
+    icon = "🐛"
+    description = "Take a look at all my work!"
+    url = "https://github.com/AuButt"
+    button_text = "Visit Page"
 
   [[params.social]]
-    name = "Twitter"
+    name = "Resume"
     class = "wechat"
-    icon = "🐦"
-    description = "Tech thoughts and daily updates"
-    url = "https://x.com/m03315_"
-    button_text = "Follow Me"
+    icon = "📝"
+    description = "Open Here"
+    url = "../static/AustinButtResume.pdf"
+    target = "_blank"
+    button_text = "Open Here"
+
 
   # Portfolio Items
   [[params.portfolio]]
@@ -52,7 +54,7 @@ theme = "nomad-tech"
     icon = "img-1"
     description = "A 4-player cooperative fire starting game about burning your way through a futuristic dystopia."
     tags = ["C#", "Unity", "Photon: Fusion", "Networking"]
-    project_url = "/projects/nomad-app/"
+    project_url = "/nomad-tech/abtport1"
 
     [[params.portfolio]]
     title = "Purrsuit"
@@ -60,7 +62,7 @@ theme = "nomad-tech"
     icon = "img-2"
     description = "A competitive, no-holds-bar, motorbike arena battle to the ninth life"
     tags = ["C++", "Unreal Engine", "Phys Optimization"]
-    project_url = "/projects/nomad-app/"
+    project_url = "/nomad-tech/abtport2"
 
     [[params.portfolio]]
     title = "Pick Some Axe"
@@ -68,7 +70,7 @@ theme = "nomad-tech"
     icon = "img-3"
     description = "A puzzle platformer with a unique spin"
     tags = ["C#", "Unity", "Physics", "AI"]
-    project_url = "/projects/nomad-app/"
+    project_url = "/nomad-tech/abtport3"
 
   [[params.portfolio]]
   title = "Particle Buoyancy Simulation"
@@ -76,7 +78,7 @@ theme = "nomad-tech"
   icon = "img-4"
   description = "Simulated buoyancy on custom build particles using AABB collision"
   tags = ["C", "ECS Physics"]
-  project_url = "/projects/nomad-app/"
+  project_url = "/nomad-tech/abtport4"
 
   [[params.portfolio]]
   title = "Meta/MusicGen: Adaptive Music"
@@ -84,6 +86,7 @@ theme = "nomad-tech"
   icon = "img-5"
   description = "Dynamic and Adaptive music generation incorperating Meta's AI music generation subsystem"
   tags = ["C", "Meta AI API", "Python"]
+  project_url = "/nomad-tech/abtport5"
 
   # Travel Timeline
   [[params.travels]]
@@ -122,6 +125,6 @@ theme = "nomad-tech"
     value = "413-575-2939"
 
   [[params.contact]]
-    icon = "🐦"
-    name = "X"
-    value = "PENDING"
+    icon = "ℹ️"
+    name = "LinkedIn"
+    value = "linkedin.com/in/austin-butt"
