@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>旅行时间线 on AuButt - Digital Nomad | Tech Insights | Life Stories</title>
-    <link>http://localhost:1313/nomad-tech/travel/</link>
+    <link>http://localhost:1313/AuButtWeb/travel/</link>
     <description>Recent content in 旅行时间线 on AuButt - Digital Nomad | Tech Insights | Life Stories</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <managingEditor>austin.butt@mymail.champlain.edu (AuButt)</managingEditor>
     <webMaster>austin.butt@mymail.champlain.edu (AuButt)</webMaster>
-    <atom:link href="http://localhost:1313/nomad-tech/travel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/AuButtWeb/travel/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
