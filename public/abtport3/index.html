@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/nomad-tech/livereload.js?mindelay=10&amp;v=2&amp;port=50708&amp;path=nomad-tech/livereload" data-no-instant defer></script>
+<head><script src="/nomad-tech/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=nomad-tech/livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -13,7 +13,7 @@
 <meta property="og:title" content="About Me | Your Name - Digital Nomad | Tech Insights | Life Stories">
 <meta property="og:description" content="Full-stack developer, digital nomad, and tech enthusiast">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:50708/nomad-tech/abtport3/">
+<meta property="og:url" content="http://localhost:1313/nomad-tech/abtport3/">
 <meta property="og:site_name" content="Your Name - Digital Nomad | Tech Insights | Life Stories">
 
 
@@ -27,13 +27,13 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "About Me | Your Name - Digital Nomad | Tech Insights | Life Stories",
-  "url": "http:\/\/localhost:50708\/nomad-tech\/abtport3\/",
+  "url": "http:\/\/localhost:1313\/nomad-tech\/abtport3\/",
   
 }
 </script>
     
 
-<link rel="stylesheet" href="/nomad-tech/scss/main.min.be71a9cbd975165eed42604cd1f7fd28ea8bbe51079005c5eb024a2b8f5b78bf.css" integrity="sha256-vnGpy9l1Fl7tQmBM0ff9KOqLvlEHkAXF6wJKK49beL8=">
+<link rel="stylesheet" href="/nomad-tech/scss/main.min.fa34c3b7b09c486fd88ffc1ad99962ec85b7cec1834ed7388f01bff27af68e69.css" integrity="sha256-&#43;jTDt7CcSG/Yj/wa2Zli7IW3zsGDTtc4jwG/8nr2jmk=">
 
 
 
@@ -45,21 +45,21 @@
     <nav role="navigation" aria-label="Main navigation">
     <div class="container">
         <div class="nav-container">
-            <a href="http://localhost:50708/nomad-tech/" class="logo" aria-label="Your Name - Digital Nomad | Tech Insights | Life Stories - Home">Austin Butt</a>
+            <a href="http://localhost:1313/nomad-tech/" class="logo" aria-label="Your Name - Digital Nomad | Tech Insights | Life Stories - Home">Austin Butt</a>
             <ul class="nav-links" id="nav-menu">
-                <li><a href="http://localhost:50708/nomad-tech/" aria-current="false">Home</a></li>
-                <li><a href="http://localhost:50708/nomad-tech/portfolio/" aria-current="false">Portfolio</a></li>
-                <li><a href="http://localhost:50708/nomad-tech/about/" aria-current="false">About</a></li>
-                <li><a href="http://localhost:50708/nomad-tech/social/" aria-current="false">Hiring</a></li>
+                <li><a href="http://localhost:1313/nomad-tech/" aria-current="false">Home</a></li>
+                <li><a href="http://localhost:1313/nomad-tech/portfolio/" aria-current="false">Portfolio</a></li>
+                <li><a href="http://localhost:1313/nomad-tech/about/" aria-current="false">About</a></li>
+                <li><a href="http://localhost:1313/nomad-tech/social/" aria-current="false">Hiring</a></li>
             </ul>
             <div class="lang-switcher" role="group" aria-label="Language selection">
                 
-                <a href="http://localhost:50708/nomad-tech/en/"
+                <a href="http://localhost:1313/nomad-tech/en/"
                    class="lang-link active" 
                    aria-label="Switch to " 
                    aria-current="true">EN</a>
                 
-                <a href="http://localhost:50708/nomad-tech/fr/"
+                <a href="http://localhost:1313/nomad-tech/fr/"
                    class="lang-link " 
                    aria-label="Switch to " 
                    >FR</a>
@@ -79,15 +79,13 @@
                 <span class="btn-minimize"></span>
                 <span class="btn-maximize"></span>
             </div>
-            <div class="terminal-title">Burntown</div>
+            <div class="terminal-title">Pick Some Axe</div>
         </div>
         <div class="carousel">
             <button class="arrow left">&#10094;</button>
 
             <div class="carousel-track">
-                <div class="slide burntownimg-1"></div>
-                <div class="slide burntownimg-2"></div>
-                <div class="slide burntownimg-3"></div>
+                <div class="slide img-3"></div>
             </div>
 
             <button class="arrow right">&#10095;</button>
@@ -109,27 +107,50 @@
         </div>
     </article>
 </div>
-<script >
+<script>
     const track = document.querySelector('.carousel-track');
     const images = document.querySelectorAll('.carousel-track .slide');
     const nextBtn = document.querySelector('.arrow.right');
     const prevBtn = document.querySelector('.arrow.left');
 
     let index = 0;
+
     function updateCarousel() {
         const width = images[0].clientWidth;
         track.style.transform = `translateX(-${index * width}px)`;
     }
 
-    nextBtn.addEventListener('click', () => {
+    
+    function nextSlide() {
         index = (index + 1) % images.length;
         updateCarousel();
+    }
+
+    
+    function prevSlide() {
+        index = (index - 1 + images.length) % images.length;
+        updateCarousel();
+    }
+
+    
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        resetTimer();
     });
 
     prevBtn.addEventListener('click', () => {
-        index = (index - 1 + images.length) % images.length;
-        updateCarousel();
+        prevSlide();
+        resetTimer();
     });
+
+    
+    let interval = setInterval(nextSlide, 15000);
+
+    
+    function resetTimer() {
+        clearInterval(interval);
+        interval = setInterval(nextSlide, 15000);
+    }
 
     window.addEventListener('resize', updateCarousel);
 </script>
