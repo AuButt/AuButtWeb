@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+
     <title>Home on Your Name - Digital Nomad | Tech Insights | Life Stories</title>
     <link>http://localhost:1313/nomad-tech/</link>
     <description>Recent content in Home on Your Name - Digital Nomad | Tech Insights | Life Stories</description>
     <generator>Hugo -- gohugo.io</generator>
+
+    
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/nomad-tech/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nomad-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern JavaScript Async Patterns</title>
       <link>http://localhost:1313/nomad-tech/posts/javascript-async-patterns/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/javascript-async-patterns/</guid>
       <description>&lt;h1 id=&#34;modern-javascript-async-patterns&#34;&gt;Modern JavaScript Async Patterns&lt;/h1&gt;
 &lt;p&gt;Exploring the evolution from callbacks to async/await and beyond.&lt;/p&gt;
@@ -37,7 +52,9 @@
       <title>Building a Hugo Theme from Scratch</title>
       <link>http://localhost:1313/nomad-tech/posts/hugo-theme-development/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/hugo-theme-development/</guid>
       <description>&lt;h1 id=&#34;building-a-hugo-theme-from-scratch&#34;&gt;Building a Hugo Theme from Scratch&lt;/h1&gt;
 &lt;p&gt;Creating a custom Hugo theme has been an exciting journey! Here&amp;rsquo;s what I learned while building the nomad-tech theme.&lt;/p&gt;
@@ -63,7 +80,9 @@
       <title>Digital Nomad Visa Guide 2024</title>
       <link>http://localhost:1313/nomad-tech/posts/nomad-visa-guide/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/nomad-visa-guide/</guid>
       <description>&lt;h1 id=&#34;digital-nomad-visa-guide-2024&#34;&gt;Digital Nomad Visa Guide 2024&lt;/h1&gt;
 &lt;p&gt;Complete guide to digital nomad visas and remote work permits.&lt;/p&gt;
@@ -88,7 +107,9 @@
       <title>Digital Nomad Life in Bali: 3 Months In</title>
       <link>http://localhost:1313/nomad-tech/posts/nomad-life-bali/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/nomad-life-bali/</guid>
       <description>&lt;h1 id=&#34;digital-nomad-life-in-bali-3-months-in&#34;&gt;Digital Nomad Life in Bali: 3 Months In&lt;/h1&gt;
 &lt;p&gt;Three months into my Bali adventure, and I&amp;rsquo;m still amazed by how this island balances productivity with paradise.&lt;/p&gt;
@@ -118,7 +139,9 @@
       <title>CSS Grid vs Flexbox: When to Use What</title>
       <link>http://localhost:1313/nomad-tech/posts/css-grid-flexbox/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/css-grid-flexbox/</guid>
       <description>&lt;h1 id=&#34;css-grid-vs-flexbox-when-to-use-what&#34;&gt;CSS Grid vs Flexbox: When to Use What&lt;/h1&gt;
 &lt;p&gt;Understanding the differences between CSS Grid and Flexbox for modern layouts.&lt;/p&gt;
@@ -156,7 +179,9 @@
       <title>Best Coworking Spaces in Thailand</title>
       <link>http://localhost:1313/nomad-tech/posts/thailand-coworking-spaces/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/thailand-coworking-spaces/</guid>
       <description>&lt;h1 id=&#34;best-coworking-spaces-in-thailand&#34;&gt;Best Coworking Spaces in Thailand&lt;/h1&gt;
 &lt;p&gt;My experience working from Thailand&amp;rsquo;s top coworking spaces.&lt;/p&gt;
@@ -192,7 +217,9 @@
       <title>Docker Development Workflow for Hugo Themes</title>
       <link>http://localhost:1313/nomad-tech/posts/docker-development-workflow/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/docker-development-workflow/</guid>
       <description>&lt;h1 id=&#34;docker-development-workflow-for-hugo-themes&#34;&gt;Docker Development Workflow for Hugo Themes&lt;/h1&gt;
 &lt;p&gt;Setting up a consistent development environment across different machines is crucial for theme development. Here&amp;rsquo;s my Docker-based workflow.&lt;/p&gt;
@@ -232,7 +259,9 @@
       <title>React Hooks Complete Guide</title>
       <link>http://localhost:1313/nomad-tech/posts/react-hooks-guide/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/react-hooks-guide/</guid>
       <description>&lt;h1 id=&#34;react-hooks-complete-guide&#34;&gt;React Hooks Complete Guide&lt;/h1&gt;
 &lt;p&gt;Master React Hooks with practical examples and best practices.&lt;/p&gt;
@@ -265,7 +294,9 @@
       <title>Digital Nomad Budget Breakdown: $2000/Month</title>
       <link>http://localhost:1313/nomad-tech/posts/nomad-budget-breakdown/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/nomad-budget-breakdown/</guid>
       <description>&lt;h1 id=&#34;digital-nomad-budget-breakdown-2000month&#34;&gt;Digital Nomad Budget Breakdown: $2000/Month&lt;/h1&gt;
 &lt;p&gt;How I manage to live comfortably on $2000/month as a digital nomad.&lt;/p&gt;
@@ -314,7 +345,9 @@
       <title>TypeScript Best Practices 2024</title>
       <link>http://localhost:1313/nomad-tech/posts/typescript-best-practices/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/typescript-best-practices/</guid>
       <description>&lt;h1 id=&#34;typescript-best-practices-2024&#34;&gt;TypeScript Best Practices 2024&lt;/h1&gt;
 &lt;p&gt;Essential TypeScript patterns and practices for better code quality.&lt;/p&gt;
@@ -360,7 +393,9 @@
       <title>Essential Remote Work Tools for Developers in 2024</title>
       <link>http://localhost:1313/nomad-tech/posts/remote-work-tools-2024/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/remote-work-tools-2024/</guid>
       <description>&lt;h1 id=&#34;essential-remote-work-tools-for-developers-in-2024&#34;&gt;Essential Remote Work Tools for Developers in 2024&lt;/h1&gt;
 &lt;p&gt;After working remotely from 15+ countries, here are the tools that keep me productive anywhere.&lt;/p&gt;
@@ -406,7 +441,9 @@
       <title>Welcome to Nomad Tech Theme</title>
       <link>http://localhost:1313/nomad-tech/posts/example-post/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-       
+
+      
+
       <guid>http://localhost:1313/nomad-tech/posts/example-post/</guid>
       <description>&lt;p&gt;This is an example post to demonstrate the Nomad Tech Theme features.&lt;/p&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
@@ -419,5 +456,6 @@
 &lt;p&gt;Customize this theme by editing your &lt;code&gt;hugo.toml&lt;/code&gt; configuration file.&lt;/p&gt;</description>
     </item>
     
+
   </channel>
 </rss>
