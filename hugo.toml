@@ -128,3 +128,7 @@ theme = "nomad-tech"
     icon = "ℹ️"
     name = "LinkedIn"
     value = "linkedin.com/in/austin-butt"
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
