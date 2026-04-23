@@ -82,7 +82,7 @@ type = "Mobile Application"
 icon = "img-1"
 description = "A 4-player cooperative fire starting game about burning your way through a futuristic dystopia."
 tags = ["C#", "Unity", "Photon: Fusion", "Networking"]
-project_url = "/nomad-tech/abtport1"
+project_url = "/AuButtWeb/portfolio/abtport1/"
 
 [[params.portfolio]]
 title = "Purrsuit"
@@ -90,7 +90,7 @@ type = "Mobile Application"
 icon = "img-2"
 description = "A competitive, no-holds-bar, motorbike arena battle to the ninth life"
 tags = ["C++", "Unreal Engine", "Phys Optimization"]
-project_url = "/nomad-tech/abtport2"
+project_url = "/AuButtWeb/portfolio/abtport2/"
 
 [[params.portfolio]]
 title = "Pick Some Axe"
@@ -98,7 +98,7 @@ type = "Mobile Application"
 icon = "img-3"
 description = "A puzzle platformer with a unique spin"
 tags = ["C#", "Unity", "Physics", "AI"]
-project_url = "/nomad-tech/abtport3"
+project_url = "/AuButtWeb/portfolio/abtport3/"
 
 [[params.portfolio]]
 title = "Particle Buoyancy Simulation"
@@ -106,7 +106,7 @@ type = "Mobile Application"
 icon = "img-4"
 description = "Simulated buoyancy on custom build particles using AABB collision"
 tags = ["C", "ECS Physics"]
-project_url = "/nomad-tech/abtport4"
+project_url = "/AuButtWeb/portfolio/abtport4/"
 
 [[params.portfolio]]
 title = "Meta/MusicGen: Adaptive Music"
@@ -114,7 +114,7 @@ type = "Web Application"
 icon = "img-5"
 description = "Dynamic and Adaptive music generation incorporating Meta AI tools"
 tags = ["C", "Meta AI API", "Python"]
-project_url = "/nomad-tech/abtport5"
+project_url = "/AuButtWeb/portfolio/abtport5/"
 
 
 # ------------------------
