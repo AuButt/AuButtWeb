@@ -2,129 +2,171 @@ baseURL = "https://m03315.github.io/nomad-tech/"
 defaultContentLanguage = "en"
 theme = "nomad-tech"
 
+# ------------------------
+# Pagination
+# ------------------------
 [pagination]
-  pagerSize = 6
+pagerSize = 6
 
+# ------------------------
+# Taxonomies
+# ------------------------
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+category = "categories"
+tag = "tags"
 
+# ------------------------
+# Languages
+# ------------------------
 [languages]
-  [languages.en]
-    languageCode = "en-US"
-    title = "Your Name - Digital Nomad | Tech Insights | Life Stories"
-    weight = 1
-  [languages.fr]
-    languageCode = "fr-FR"
-    title = "Your Name - Nomade Numérique | Tech | Vie"
-    weight = 2
+
+[languages.en]
+languageCode = "en-US"
+title = "AuButt - Digital Nomad | Tech Insights | Life Stories"
+weight = 1
+
+[languages.fr]
+languageCode = "fr-FR"
+title = "AuButt - Nomade Numérique | Tech | Vie"
+weight = 2
 
 
-[author]
+# ------------------------
+# AUTHOR (IMPORTANT FIX)
+# Hugo 0.124+ compatible
+# ------------------------
+[params.author]
 name = "AuButt"
 email = "austin.butt@mymail.champlain.edu"
 
 
-  # Social Media Links
-  [[params.social]]
-    name = "Github"
-    class = "youtube"
-    icon = "🐛"
-    description = "Take a look at all my work!"
-    url = "https://github.com/AuButt"
-    button_text = "Visit Page"
+# ------------------------
+# Params
+# ------------------------
+[params]
 
-  [[params.social]]
-    name = "Resume"
-    class = "wechat"
-    icon = "📝"
-    description = "Open Here"
-    url = "../static/AustinButtResume.pdf"
-    target = "_blank"
-    button_text = "Open Here"
+logo = "AuButt"
+subtitle = "Networking • Game Development • Physics/AI Programmer"
+description = "Something something something..."
 
-  # Portfolio Items
-  [[params.portfolio]]
-    title = "Burntown"
-    type = "Mobile Application"
-    icon = "img-1"
-    description = "A 4-player cooperative fire starting game about burning your way through a futuristic dystopia."
-    tags = ["C#", "Unity", "Photon: Fusion", "Networking"]
-    project_url = "/nomad-tech/abtport1"
+googleAnalytics = "G-2310RJEC91"
 
-    [[params.portfolio]]
-    title = "Purrsuit"
-    type = "Mobile Application"
-    icon = "img-2"
-    description = "A competitive, no-holds-bar, motorbike arena battle to the ninth life"
-    tags = ["C++", "Unreal Engine", "Phys Optimization"]
-    project_url = "/nomad-tech/abtport2"
 
-    [[params.portfolio]]
-    title = "Pick Some Axe"
-    type = "Mobile Application"
-    icon = "img-3"
-    description = "A puzzle platformer with a unique spin"
-    tags = ["C#", "Unity", "Physics", "AI"]
-    project_url = "/nomad-tech/abtport3"
+# ------------------------
+# Social Links
+# ------------------------
+[[params.social]]
+name = "Github"
+class = "github"
+icon = "🐛"
+description = "Take a look at all my work!"
+url = "https://github.com/AuButt"
+button_text = "Visit Page"
 
-  [[params.portfolio]]
-  title = "Particle Buoyancy Simulation"
-  type = "Mobile Application"
-  icon = "img-4"
-  description = "Simulated buoyancy on custom build particles using AABB collision"
-  tags = ["C", "ECS Physics"]
-  project_url = "/nomad-tech/abtport4"
+[[params.social]]
+name = "Resume"
+class = "resume"
+icon = "📝"
+description = "Open Here"
+url = "/AustinButtResume.pdf"
+target = "_blank"
+button_text = "Open Here"
 
-  [[params.portfolio]]
-  title = "Meta/MusicGen: Adaptive Music"
-  type = "Web Application"
-  icon = "img-5"
-  description = "Dynamic and Adaptive music generation incorperating Meta's AI music generation subsystem"
-  tags = ["C", "Meta AI API", "Python"]
-  project_url = "/nomad-tech/abtport5"
 
-  # Travel Timeline
-  [[params.travels]]
-    city = "Bangkok"
-    country = "Thailand"
-    flag = "🇹🇭"
-    period = "2024.01 - 2024.03"
-    description = "Started my nomad journey in the vibrant capital of Thailand"
-    highlights = ["Co-working spaces", "Street food", "Tech meetups"]
+# ------------------------
+# Portfolio
+# ------------------------
+[[params.portfolio]]
+title = "Burntown"
+type = "Mobile Application"
+icon = "img-1"
+description = "A 4-player cooperative fire starting game about burning your way through a futuristic dystopia."
+tags = ["C#", "Unity", "Photon: Fusion", "Networking"]
+project_url = "/nomad-tech/abtport1"
 
-  [[params.travels]]
-    city = "Chiang Mai"
-    country = "Thailand"
-    flag = "🇹🇭"
-    period = "2024.04 - 2024.06"
-    description = "Digital nomad hub with amazing community and low cost of living"
-    highlights = ["Nomad Summit", "Temples", "Mountain views"]
+[[params.portfolio]]
+title = "Purrsuit"
+type = "Mobile Application"
+icon = "img-2"
+description = "A competitive, no-holds-bar, motorbike arena battle to the ninth life"
+tags = ["C++", "Unreal Engine", "Phys Optimization"]
+project_url = "/nomad-tech/abtport2"
 
-  [[params.travels]]
-    city = "Bali"
-    country = "Indonesia"
-    flag = "🇮🇩"
-    period = "2024.07 - Present"
-    description = "Current base with perfect blend of work and surf lifestyle"
-    highlights = ["Surfing", "Rice terraces", "Startup scene"]
+[[params.portfolio]]
+title = "Pick Some Axe"
+type = "Mobile Application"
+icon = "img-3"
+description = "A puzzle platformer with a unique spin"
+tags = ["C#", "Unity", "Physics", "AI"]
+project_url = "/nomad-tech/abtport3"
 
-  # Contact Information
-  [[params.contact]]
-    icon = "📧"
-    name = "Email"
-    value = "akb12bella@gmail.com"
+[[params.portfolio]]
+title = "Particle Buoyancy Simulation"
+type = "Mobile Application"
+icon = "img-4"
+description = "Simulated buoyancy on custom build particles using AABB collision"
+tags = ["C", "ECS Physics"]
+project_url = "/nomad-tech/abtport4"
 
-  [[params.contact]]
-    icon = "💬"
-    name = "Phone"
-    value = "413-575-2939"
+[[params.portfolio]]
+title = "Meta/MusicGen: Adaptive Music"
+type = "Web Application"
+icon = "img-5"
+description = "Dynamic and Adaptive music generation incorporating Meta AI tools"
+tags = ["C", "Meta AI API", "Python"]
+project_url = "/nomad-tech/abtport5"
 
-  [[params.contact]]
-    icon = "ℹ️"
-    name = "LinkedIn"
-    value = "linkedin.com/in/austin-butt"
 
+# ------------------------
+# Travel Timeline
+# ------------------------
+[[params.travels]]
+city = "Bangkok"
+country = "Thailand"
+flag = "🇹🇭"
+period = "2024.01 - 2024.03"
+description = "Started my nomad journey in the vibrant capital of Thailand"
+highlights = ["Co-working spaces", "Street food", "Tech meetups"]
+
+[[params.travels]]
+city = "Chiang Mai"
+country = "Thailand"
+flag = "🇹🇭"
+period = "2024.04 - 2024.06"
+description = "Digital nomad hub with amazing community and low cost of living"
+highlights = ["Nomad Summit", "Temples", "Mountain views"]
+
+[[params.travels]]
+city = "Bali"
+country = "Indonesia"
+flag = "🇮🇩"
+period = "2024.07 - Present"
+description = "Current base with perfect blend of work and surf lifestyle"
+highlights = ["Surfing", "Rice terraces", "Startup scene"]
+
+
+# ------------------------
+# Contact
+# ------------------------
+[[params.contact]]
+icon = "📧"
+name = "Email"
+value = "akb12bella@gmail.com"
+
+[[params.contact]]
+icon = "💬"
+name = "Phone"
+value = "413-575-2939"
+
+[[params.contact]]
+icon = "ℹ️"
+name = "LinkedIn"
+value = "linkedin.com/in/austin-butt"
+
+
+# ------------------------
+# Cache
+# ------------------------
 [caches]
 [caches.images]
-dir = ':cacheDir/images'
+dir = ":cacheDir/images"

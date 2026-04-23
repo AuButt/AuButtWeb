@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 
-    <title>Your Name - Nomade Numérique | Tech | Vie</title>
+    <title>AuButt - Nomade Numérique | Tech | Vie</title>
     <link>http://localhost:1313/nomad-tech/fr/</link>
-    <description>Recent content on Your Name - Nomade Numérique | Tech | Vie</description>
+    <description>Recent content on AuButt - Nomade Numérique | Tech | Vie</description>
     <generator>Hugo -- gohugo.io</generator>
 
     
@@ -12,7 +12,11 @@
     
 
     
+    <managingEditor>austin.butt@mymail.champlain.edu (AuButt)</managingEditor>
+    
 
+    
+    <webMaster>austin.butt@mymail.champlain.edu (AuButt)</webMaster>
     
 
     

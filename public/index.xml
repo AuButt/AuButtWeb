@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 
-    <title>Home on Your Name - Digital Nomad | Tech Insights | Life Stories</title>
+    <title>Home on AuButt - Digital Nomad | Tech Insights | Life Stories</title>
     <link>http://localhost:1313/nomad-tech/</link>
-    <description>Recent content in Home on Your Name - Digital Nomad | Tech Insights | Life Stories</description>
+    <description>Recent content in Home on AuButt - Digital Nomad | Tech Insights | Life Stories</description>
     <generator>Hugo -- gohugo.io</generator>
 
     
@@ -12,7 +12,11 @@
     
 
     
+    <managingEditor>austin.butt@mymail.champlain.edu (AuButt)</managingEditor>
+    
 
+    
+    <webMaster>austin.butt@mymail.champlain.edu (AuButt)</webMaster>
     
 
     
