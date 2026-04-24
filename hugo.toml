@@ -25,16 +25,7 @@ languageCode = "en-US"
 title = "Austin Butt's Website"
 weight = 1
 
-[languages.fr]
-languageCode = "fr-FR"
-title = "AuButt - Nomade Numérique | Tech | Vie"
-weight = 2
 
-
-# ------------------------
-# AUTHOR (IMPORTANT FIX)
-# Hugo 0.124+ compatible
-# ------------------------
 [params.author]
 name = "AuButt"
 email = "austin.butt@mymail.champlain.edu"
@@ -45,7 +36,7 @@ email = "austin.butt@mymail.champlain.edu"
 # ------------------------
 [params]
 
-logo = "AuButt"
+logo = "Austin Butt"
 subtitle = "Networking • Game Development • Physics/AI Programmer"
 description = "Something something something..."
 
