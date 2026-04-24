@@ -59,7 +59,7 @@ name = "Resume"
 class = "resume"
 icon = "📝"
 description = "Open Here"
-url = "/AustinButtResume.pdf"
+url = "/AuButtWeb/AustinButtResume.pdf"
 target = "_blank"
 button_text = "Open Here"
 
