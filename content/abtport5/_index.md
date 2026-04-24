@@ -1,20 +1,16 @@
 ---
-title: "About Me"
-description: "Full-stack developer, digital nomad, and tech enthusiast"
+title: "MusicGen"
+description: "A look at my MusicGen Project"
 ---
 
-# Adaptive Music
+# Meta/MusicGen
 
-A 4-player cooperative fire starting game about burning your way through a futuristic dystopia.
+Dynamic and Adaptive music generation incorporating Meta AI tools
 
-## My Role
+## Key Features
 
-I've been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.
+**AI-Assisted Music Generation Pipeline**: Integrated Meta AI / Hugging Face music generation models into a runtime pipeline to produce adaptive audio assets based on input parameters and system prompts.
 
-## Skills I Learned
+**Multi-System Integration Architecture**: Built a modular system bridging external Python-based AI tooling with the main application runtime, enabling seamless data flow between music generation services and gameplay systems.
 
-**Tech Development**: Building web applications and mobile solutions
-
-**Content Creation**: Sharing insights through blogs and videos
-
-**Community Building**: Connecting with fellow nomads and tech enthusiasts
+**Adaptive Gameplay-Driven Music System**: Designed a dynamic audio system that adjusts tempo, intensity, and musical layering in response to real-time game state changes to enhance player immersion and feedback.

@@ -1,20 +1,24 @@
 ---
-title: "About Me"
-description: "Full-stack developer, digital nomad, and tech enthusiast"
+title: "Pick Some Axe"
+description: "A look at Pick Some Axe"
 ---
 
 # Pick Some Axe
 
-A 4-player cooperative fire starting game about burning your way through a futuristic dystopia.
+A puzzle platformer with a unique spin
 
-## My Role
+## Key Features
 
-I've been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.
+**AI Navigation & Behavior System**: Enemy AI utilizing pathfinding, state-based behavior logic, and reactive decision-making to create dynamic platforming challenges and adaptive encounters.
 
-## Skills I Learned
+**Physics-Driven Enemy Interaction System**: Integrated physics and collision system enabling consistent and predictable interactions between AI agents, player movement, and environmental obstacles.
 
-**Tech Development**: Building web applications and mobile solutions
+**Gameplay Debugging & Development Tools**: Implemented in-engine debugging tools and runtime visualization systems to support rapid iteration, AI tuning, and collision/physics troubleshooting during development.
 
-**Content Creation**: Sharing insights through blogs and videos
+## Experience / Exposure
 
-**Community Building**: Connecting with fellow nomads and tech enthusiasts
+Participated in a structured onboarding process, integrating into a team-based development workflow and collaborative production pipeline
+
+Worked through a full development lifecycle including alpha, beta, release candidate, and final release (Steam launch)
+
+Collaborated with external contractors to integrate outsourced work into the project and maintain consistency with internal systems and design goals  

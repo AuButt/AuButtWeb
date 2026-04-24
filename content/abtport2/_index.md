@@ -1,20 +1,24 @@
 ---
-title: "About Me"
-description: "Full-stack developer, digital nomad, and tech enthusiast"
+title: "Purrsuit"
+description: "A look at Purrsuit"
 ---
 
 # Purrsuit
 
-A 4-player cooperative fire starting game about burning your way through a futuristic dystopia.
+A 2 player competitive, no-holds-bar, motorbike arena battle to the ninth life
 
-## My Role
+## Key Features
 
-I've been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.
+**Physics-Based Combat System**: Real-time vehicle physics enabling momentum-driven collisions, environmental interactions, and skill-based control tuning for competitive arena gameplay.
 
-## Skills I Learned
+**User Interface & Player Experience Design**: Designed and iterated HUD, in-game feedback systems, and menu flow to ensure clarity under fast-paced combat conditions and reduce player cognitive load.
 
-**Tech Development**: Building web applications and mobile solutions
+**Performance Optimization**: Implemented runtime performance improvements including object pooling, efficient collision handling, and scene optimization to maintain stable frame rates during high-intensity multiplayer encounters.
 
-**Content Creation**: Sharing insights through blogs and videos
+## Experience / Exposure
 
-**Community Building**: Connecting with fellow nomads and tech enthusiasts
+Conducted weekly structured playtesting sessions, iterating on gameplay balance and mechanics based on player feedback
+
+Contributed to marketing and outreach efforts to promote the project across online platforms and player communities
+
+Helped grow and maintain an active community of over 150 members through engagement, updates, and playtest coordination  

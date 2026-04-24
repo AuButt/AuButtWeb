@@ -1,20 +1,24 @@
 ---
-title: "About Me"
-description: "Full-stack developer, digital nomad, and tech enthusiast"
+title: "Burntown"
+description: "A look at Burntown"
 ---
 
 # Burntown
 
-A 4-player cooperative fire starting game about burning your way through a futuristic dystopia.
+A 4-player networked cooperative fire starting game about burning your way through a futuristic dystopia.
 
-## My Role
+## Key Features
 
-I've been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.
+**Networking**: Real-time multiplayer gameplay supporting up to 4 players with synchronized game state, using client-side prediction and server authority to ensure consistency and responsiveness under variable latency conditions.
 
-## Skills I Learned
+**Client-Server Architecture**: Dedicated server model handling authoritative game logic, player state validation, and session management to prevent desyncs and maintain gameplay integrity across connected clients.
 
-**Tech Development**: Building web applications and mobile solutions
+**Iterative Gameplay Design**: Gameplay systems refined through structured playtesting sessions at conventions and internal builds, incorporating player and industry feedback to improve balance, clarity, and overall player experience.
 
-**Content Creation**: Sharing insights through blogs and videos
+## Experience / Exposure
 
-**Community Building**: Connecting with fellow nomads and tech enthusiasts
+10-week professional game development competition run in collaboration with Ubisoft, simulating real production timelines and constraints
+
+Conducted hands-on playtesting at an indie game convention, gathering and implementing player feedback to improve gameplay systems
+
+Collaborated with Ubisoft employees and product managers in structured review cycles, aligning development decisions with industry-level expectations and deadlines  

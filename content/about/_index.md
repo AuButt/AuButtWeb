@@ -7,20 +7,22 @@ description: "Full-stack developer, digital nomad, and tech enthusiast"
 
 Hi, I'm **Austin** - a Network Programmer,  Gamedev, and Computer Science student
 
-## My Journey
+## Technical Journey
 
-I've been working remotely for several years, traveling the world while building technology solutions. My passion lies in exploring new technologies, sharing knowledge, and helping others embrace the digital nomad lifestyle.
+I’ve been building interactive systems and games across multiplayer networking, physics simulation, AI behavior, and procedural audio. My work focuses on understanding how complex systems interact in real time to create responsive and engaging gameplay experiences.
 
-## What I Do
+I’ve developed projects ranging from networked multiplayer games to physics-based simulations and AI-driven systems. Along the way, I’ve also participated in structured development environments, including a 10-week Ubisoft-supported game development cycle, where I worked under production-style deadlines, playtesting pipelines, and iterative design processes.
 
-**Tech Development**: Building web applications and mobile solutions
+## Technical Focus
 
-**Content Creation**: Sharing insights through blogs and videos
+**Game Systems Development**: Designing and implementing gameplay systems including networking, physics, and AI-driven behavior
 
-**Community Building**: Connecting with fellow nomads and tech enthusiasts
+**Simulation & Engine Programming**: Building real-time physics simulations, particle systems, and environmental interaction models
 
-## My Mission
+**Audio & Procedural Systems**: Developing adaptive systems such as dynamic music generation tied to gameplay state
 
-To bridge the gap between technology and lifestyle, showing how digital tools can enable freedom and creativity in our modern world.
+**Team-Based Game Development**: Working in structured pipelines involving playtesting, iteration, and cross-discipline collaboration
 
-``
+## Development Philosophy
+
+To build immersive and technically grounded interactive systems that connect gameplay, simulation, and player experience — and to continue growing as a developer working on real-time systems in games and interactive media.

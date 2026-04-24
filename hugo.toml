@@ -38,7 +38,7 @@ email = "austin.butt@mymail.champlain.edu"
 
 logo = "Austin Butt"
 subtitle = "Networking • Game Development • Physics/AI Programmer"
-description = "Something something something..."
+description = "Check out my projects, experience, and what I’m working on next."
 
 googleAnalytics = "G-2310RJEC91"
 
@@ -59,7 +59,7 @@ name = "Resume"
 class = "resume"
 icon = "📝"
 description = "Open Here"
-url = "/AustinButtResume.pdf"
+url = "/AuButtWeb/AustinButtResume.pdf"
 target = "_blank"
 button_text = "Open Here"
 

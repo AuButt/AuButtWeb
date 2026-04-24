@@ -3,6 +3,6 @@ title: "Hire Me"
 description: "Hiring"
 ---
 
-# My Links
+# Featured Work & Links
 
-See my work throughout the years
+Explore my projects, experience, and professional profiles.
